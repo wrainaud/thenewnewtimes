@@ -1,0 +1,20 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-amplify8ecc74afd81f4-staging-230019-authRole",
+      "UnauthRoleArn": "arn:aws:iam::029848503101:role/amplify-amplify8ecc74afd81f4-staging-230019-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::029848503101:role/amplify-amplify8ecc74afd81f4-staging-230019-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-amplify8ecc74afd81f4-staging-230019-deployment",
+      "UnauthRoleName": "amplify-amplify8ecc74afd81f4-staging-230019-unauthRole",
+      "StackName": "amplify-amplify8ecc74afd81f4-staging-230019",
+      "StackId": "arn:aws:cloudformation:us-east-1:029848503101:stack/amplify-amplify8ecc74afd81f4-staging-230019/157f56c0-ed9c-11eb-8b9c-0e443e7db6f3",
+      "AmplifyAppId": "drqqqvwfinlni"
+    },
+    "categories": {
+      "auth": {
+        "thenewnewtimes6a188069": {}
+      }
+    }
+  }
+}

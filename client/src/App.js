@@ -6,6 +6,7 @@ import Saved from './pages/Saved';
 import NoMatch from './pages/NoMatch';
 import Nav from './components/Nav';
 import Nav2 from './components/Nav2';
+import {withAuthenticator, AmplifySignOut} from '@aws-amplify/ui-react';
 
 const App = () => (
   <Router>
@@ -20,8 +21,9 @@ const App = () => (
       <Switch>
         <Route exact path="http://wrainaud.com/"/>
       </Switch>
+      <AmplifySignOut/>
     </Container>
   </Router>
 );
 
-export default App;
+export default withAuthenticator(App);
