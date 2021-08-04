@@ -1,0 +1,10 @@
+{
+  "auth": {
+    "thenewnewtimes0c63c9f0": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  }
+}
