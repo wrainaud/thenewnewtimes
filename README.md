@@ -10,6 +10,10 @@ A `ReactJS` / `AWS Amplify` application where users can query, display, and save
 
 Click on the headlines to be re-directed to the full New York Times articles.
 
+> #### :exclamation: This is a proof of concept
+> 
+> As such, it is supported by the creator and may break in the future. USE AT YOUR OWN RISK!
+
 ## Functionality
 On the backend, the app uses `AWS Amplify` for user authentication
 
