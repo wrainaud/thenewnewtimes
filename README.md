@@ -2,27 +2,26 @@
 Final Project for CS 655: The NewNew Times
 
 # The NewNew Times :newspaper::apple::statue_of_liberty:
-A `NodeJS`, `MongoDB`, `Express`, and `ReactJS` application where users can query, display, and save articles from the [New York Times Article Search API](http://developer.nytimes.com/). Users can remove saved articles as well.
+A `ReactJS` / `AWS Amplify` application where users can query, display, and save articles from the [New York Times Article Search API](http://developer.nytimes.com/). Users can remove saved articles as well.
 
-**Live Demo**: https://zooyorktimes-scraper.herokuapp.com/ (NEEDS TO BE UPDATED!)
+**Live Demo**: https://thenewnewtimes.com
 
-<img src="images/screenshot.png" alt="ZooYorkTimes-Scraper Screenshot" align="center" />
+<img src="images/screenshot2.png" alt="TheNewNewTimes Screenshot" align="center" />
 
 Click on the headlines to be re-directed to the full New York Times articles.
 
 ## Functionality
-On the backend, the app uses `express` to serve routes and `mongoose` to interact with a `MongoDB` database.
+On the backend, the app uses `AWS Amplify` for user authentication
 
 On the frontend, the app uses `ReactJS` for rendering components, `axios` for internal/external API calls, and `bootstrap` as a styling framework.
 
-In order to transpile the JSX code, `webpack` and `babel` were utilized. All of the JSX  code in the `/app` folder was transpiled into the `bundle.js` file located in the `/public` folder.
 
 ## New York Times API
 Prior to starting this app and getting an `unnecessary` error message, you'll probably want to swap out the API Key provided in the `client/src/utils/API.js` file. 
 
 To get a New York Times API Key, visit [this link](https://developer.nytimes.com/signup).
 
-## Quickstart
+## Quickstart for Local Use
 
 ```
   git clone git@github.com:wrainaud/ZooYorkTimes-Scraper.git my-app
@@ -41,28 +40,15 @@ To get a New York Times API Key, visit [this link](https://developer.nytimes.com
   ^C
 ```
 
-**Note : Please make sure your MongoDB is running.** For MongoDB installation guide see [this](https://docs.mongodb.org/v3.0/installation/). 
-Run the following command in Terminal to start MongoDB after installation
-```
-  brew services start mongodb-community@4.4
-```
-
-Run the following command in Terminal to stop MongoDB
-```
-  brew services start mongodb-community@4.4
-```
-
-Also `npm3` is required to install dependencies properly.
-
 Support
 -------
 
-Please [open an issue](https://github.com/wrainaud/cs655-final-project/new) for support.
+Please [open an issue](https://github.com/wrainaud/thenewnewtimes/new) for support.
 
 Contributing
 -------
 
-Please contribute using [Github Flow](https://guides.github.com/introduction/flow/). Create a branch, add commits, and [open a pull request](https://github.com/wrainaud/cs655-final-project/compare/).
+Please contribute using [Github Flow](https://guides.github.com/introduction/flow/). Create a branch, add commits, and [open a pull request](https://github.com/wrainaud/thenewnewtimes/compare/).
 
 License
 -------
