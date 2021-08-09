@@ -80,13 +80,13 @@ class Main extends Component {
                 value={this.state.beginDate}
                 onChange={this.handleInputChange}
                 name="beginDate"
-                placeholder="Begin Date (Optional - in YYYYMMDD)"
+                placeholder="Begin Date (Optional)"
               />
               <Input
                 value={this.state.endDate}
                 onChange={this.handleInputChange}
                 name="endDate"
-                placeholder="End Date (Optional - in YYYYMMDD)"
+                placeholder="End Date (Optional)"
               />
               <FormBtn disabled={!this.state.queryTerm} onClick={this.handleFormSubmit}>
                 Search

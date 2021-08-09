@@ -25,7 +25,7 @@ To get a New York Times API Key, visit [this link](https://developer.nytimes.com
 ## Quickstart for Local Use
 
 ```
-  git clone git@github.com:wrainaud/ZooYorkTimes-Scraper.git my-app
+  git clone git@github.com:wrainaud/thenewnewtimes.git my-app
   cd my-app
   yarn install
   cd client
