@@ -19,7 +19,10 @@ const App = () => (
       </Switch>
       <Nav2/>
       <Switch>
-        <Route exact path="http://wrainaud.com/"/>
+        <Route exact path="http://wrainaud.com/" component={() => {
+          window.location.href = 'https://wrainaud.com';
+          return null;
+        }}/>
       </Switch>
       <AmplifySignOut/>
     </Container>
