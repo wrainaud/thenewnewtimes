@@ -1,7 +1,4 @@
-# thenewnewtimes
-Final Project for CS 655: The NewNew Times
-
-# The NewNew Times :newspaper::apple::statue_of_liberty:
+# The NewNew Times :newspaper::tophat:
 A `ReactJS` / `AWS Amplify` application where users can query, display, and save articles from the [New York Times Article Search API](http://developer.nytimes.com/). Users can remove saved articles as well.
 
 **Live Demo**: https://thenewnewtimes.com
