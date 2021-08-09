@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter as Router, Route, Switch, Link} from 'react-router-dom';
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import {Container} from './components/Grid'
 import Main from './pages/Main';
 import Saved from './pages/Saved';
@@ -19,7 +19,10 @@ const App = () => (
       </Switch>
       <Nav2/>
       <Switch>
-        <a href="https://wrainaud.com" target="_blank"> wrainaud.com </a>
+        <Route path="http://wrainaud.com/" component={() => {
+          window.location.href = 'https://wrainaud.com';
+          return null;
+        }}/>
       </Switch>
       <AmplifySignOut/>
     </Container>
