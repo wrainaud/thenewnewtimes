@@ -8,13 +8,13 @@ export default {
   nytSearch : function (queryTerms) {
     return axios.get(`${queryUrlBase}${queryTerms}`);
   },
-  getSavedArticles : function () {
-    return axios.get("/api/saved/");
-  },
-  deleteArticle : function (id) {
-    return axios.delete('/api/saved/' + id);
-  },
   saveArticle : function (articleData) {
     return axios.post('/api/saved', articleData);
-  }
+  },
+  getSavedArticles : function () {
+    return axios.get("/api/saved");
+  },
+  deleteArticle : function (id) {
+    return axios.delete(`/api/saved/${id}`);
+  },
 };
