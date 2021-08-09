@@ -9,12 +9,12 @@ export default {
     return axios.get(`${queryUrlBase}${queryTerms}`);
   },
   getSavedArticles : function () {
-    return axios.get('./api/saved/');
+    return axios.get("/api/saved/");
   },
   deleteArticle : function (id) {
-    return axios.delete('./api/saved/' + id);
+    return axios.delete('/api/saved/' + id);
   },
   saveArticle : function (articleData) {
-    return axios.post('./api/saved', articleData);
+    return axios.post('/api/saved', articleData);
   }
 };
