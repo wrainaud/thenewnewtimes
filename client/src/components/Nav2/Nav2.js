@@ -19,9 +19,9 @@ const Nav2 = () => (
         <div className="collapse navbar-collapse">
             <ul className="navbar-nav">
                 <li className="nav-item">
-                    <Link className="nav-link" to="https://wrainaud.com/">
+                    <a className="nav-link" href="https://wrainaud.com/">
                         wrainaud.com
-                    </Link>
+                    </a>
                 </li>
             </ul>
         </div>
