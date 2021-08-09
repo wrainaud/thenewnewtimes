@@ -19,7 +19,7 @@ const App = () => (
       </Switch>
       <Nav2/>
       <Switch>
-        <Link to={{ pathname: "https://wrainaud.com" }} target="_blank" />
+        <a href="https://wrainaud.com" target="_blank"> wrainaud.com </a>
       </Switch>
       <AmplifySignOut/>
     </Container>
